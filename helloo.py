@@ -1,8 +1,8 @@
 
 
 def greet(name):
-    return f"Yikes, {name}!"
+    return f"Yikes, {character}!"
 
 if __name__ == "__main__":
-    name = input("Who is your favorite marvel character ")
-    print(greet(name))
+    character = input("Who is your favorite marvel character ")
+    print(greet(character))
